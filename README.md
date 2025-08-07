@@ -1,36 +1,26 @@
-# cern-particle-analysis
+# CERN Jet Frequency Analysis
 
-Analyzing particle frequency in CMS collision data
-🧪 CERN Particle Frequency Analysis – Proje Özeti (AI için)
-“Bu projede, CERN’in CMS deneyine ait açık veri setlerini kullanarak, proton çarpışmaları sonucunda oluşan parçacık türlerinin frekans analizini gerçekleştirdim.
-Veri seti, her çarpışma olayında gözlemlenen parçacık türlerini ve bazı temel fiziksel özellikleri (örneğin enerji, momentum) içeriyor.
+This project analyzes real collision data from the CMS experiment at CERN to determine the frequency of jet counts observed in proton-proton collisions.
 
-Amacım:
+## 📂 Dataset
+- Source: CERN Open Data Portal
+- File used: MultiJetRun2010B.csv
+- Column of interest: `nJets` (number of jets observed per collision event)
 
-En sık gözlemlenen parçacık türlerini belirlemek
+## 🎯 Objective
+To visualize how many jets are typically observed in collision events, and identify the most common jet counts.
 
-Tür bazında basit istatistiksel çıkarımlar yapmak
+## 📈 Sample Output
+The following bar chart shows the frequency distribution of jet counts:
+![jet frequency](jet_frequency_analysis.png)
 
-Sonuçları görselleştirerek veriyle hikâye anlatmak
+## 🛠 Technologies
+- Python
+- Pandas
+- Matplotlib
 
-Python ile pandas ve matplotlib kütüphanelerini kullanarak:
+## ✨ Outcome
+This simple analysis reveals that most events involve 2 jets, with frequency decreasing as jet count increases.
 
-Veriyi okudum ve temizledim,
-
-value_counts() ile parçacıkların kaç kez gözlendiğini buldum,
-
-Bar chart ile görsel olarak sundum.
-
-Sonuç olarak, gerçek bir bilimsel veri setiyle çalışarak fiziksel olayları veri analizi yoluyla anlamaya çalışan bir örnek proje oluşturdum.”
-
-🔧 Kullandığım Teknolojiler:
-Python
-
-Pandas
-
-Matplotlib
-
-CERN Open Data Portal
-
-🧠 Bu projeyi neden yaptım?
-“CERN’in açık verilerini ilk kez kullandım. Hem gerçek bilimsel verilerle çalışmak istedim, hem de veri analizi becerilerimi geliştirmek için bu sade ama anlamlı projeyi oluşturdum.”
+## 🔬 Author
+Hatice Zeynep Karakoç – Mathematical Engineering Student
